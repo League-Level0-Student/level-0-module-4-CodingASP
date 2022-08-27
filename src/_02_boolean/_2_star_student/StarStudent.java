@@ -12,6 +12,13 @@ public class StarStudent {
 		// 1. Initialize passedExam to a value.
 
 		boolean passedExam;
+		passedExam = !true;
+		if(passedExam) {
+			System.out.println("Congrats!!");
+		}
+		else {
+			System.out.println("Maybe next time..");
+		}
 		
 		// 2. Call the didYouPass method with the variable you just initialized
 		//    as the parameter so that it shows a pop-up.

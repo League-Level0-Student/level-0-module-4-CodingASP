@@ -9,7 +9,8 @@ public class GameOver {
 		boolean gameOver = false;
 		
 		// 1. Ask the user if the game is over and save their answer.
-		
+int response = System.out.println("Is the game over?");
+
 		// 2. If they answer "yes" change gameOver to true.
 		
 		// 3. Surround steps 1-2 in a while loop that runs as long as
